@@ -1,0 +1,7 @@
+mi-web-arte/
+├── index.html          (el código de abajo)
+├── config.js           (← NUEVO: aquí gestionas tus obras)
+├── images/             (tus fotos de obras)
+│   ├── obra1.jpg
+│   ├── obra2.jpg
+│   └── ...
