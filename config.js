@@ -18,7 +18,7 @@ const cuadros = [
     dimensiones: "61 × 50 cm",
     precio: 300,
     estado: "disponible",
-    imagen: "images/1larambla.jpg",
+    imagen: "images/larambla.jpg",
     descripcion: "Dibujo de la antigua Rambla (Actual Fco Garcia Lorca. Almería)."
   },
   {
