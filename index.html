@@ -82,6 +82,17 @@ section{padding:6rem 2rem}
 .status-available{background:rgba(76,175,80,.9);color:#fff}
 .status-sold{background:rgba(211,47,47,.9);color:#fff}
 .status-reserved{background:rgba(255,152,0,.9);color:#fff}
+.status-unavailable{
+  background: rgba(120,120,120,.9);
+  color:#fff;
+}
+
+.status-private{
+  background: rgba(88,88,88,.9);
+  color:#fff;
+}
+
+
 .card-info{padding:1.5rem}
 .card-title{font-family:'Playfair Display',serif;font-size:1.25rem;font-weight:700;margin-bottom:.5rem}
 .card-specs{display:flex;gap:1rem;flex-wrap:wrap;margin-bottom:1rem}
@@ -284,7 +295,7 @@ footer p{margin-top:.75rem;font-size:.85rem}
       <!--
       <div class="about-stats">
         <div class="stat"><div class="stat-number">50+</div><div class="stat-label">Obras creadas</div></div>
-        <div class="stat"><div class="stat-number">80+</div><div class="stat-label">Coleccionistas</div></div>
+        <div class="stat"><div class="stat-number">80+</div><div class="stat-label">istas</div></div>
         <div class="stat"><div class="stat-number">12</div><div class="stat-label">Años de trayectoria</div></div>
       </div>
     -->
@@ -370,10 +381,38 @@ document.addEventListener('DOMContentLoaded', () => {
   const modalClose = document.getElementById('modalClose');
 
   const estadoMap = {
-    disponible: { texto: 'Disponible', clase: 'status-available', mostrarPrecio: true },
-    reservado:  { texto: 'Reservado',  clase: 'status-reserved',  mostrarPrecio: false },
-    vendido:    { texto: 'Vendido',    clase: 'status-sold',      mostrarPrecio: false }
-  };
+
+  disponible: {
+    texto: 'Disponible',
+    clase: 'status-available',
+    mostrarPrecio: true
+  },
+
+  reservado: {
+    texto: 'Reservado',
+    clase: 'status-reserved',
+    mostrarPrecio: false
+  },
+
+  vendido: {
+    texto: 'Vendido',
+    clase: 'status-sold',
+    mostrarPrecio: false
+  },
+
+  "No disponible": {
+    texto: 'No disponible',
+    clase: 'status-unavailable',
+    mostrarPrecio: false
+  },
+
+  "Colección privada": {
+    texto: 'Colección privada',
+    clase: 'status-private',
+    mostrarPrecio: false
+  }
+
+};
 
   const categorias = ['Todos', ...new Set(cuadros.map(c => c.categoria))];
   categorias.forEach((cat, i) => {
@@ -456,8 +495,12 @@ document.addEventListener('DOMContentLoaded', () => {
       priceEl.textContent = obra.precio.toLocaleString('es-ES') + ' €';
     }
 
-    if (obra.estado === 'vendido') {
-      ctaEl.textContent = 'Obra vendida';
+    if (
+      obra.estado === 'vendido' ||
+      obra.estado === 'no disponible' ||
+      obra.estado === 'Colección privada'
+    ) {
+      ctaEl.textContent = estado.texto;
       ctaEl.href = '#';
       ctaEl.onclick = (ev) => ev.preventDefault();
     } else if (obra.estado === 'reservado') {
