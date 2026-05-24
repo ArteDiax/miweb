@@ -4,7 +4,8 @@
 // ✅ CÓMO AÑADIR UNA NUEVA OBRA: Copia un bloque {...}, pégalo antes del ], modifica los valores
 // ✅ CÓMO MARCAR COMO VENDIDO: estado: "disponible" → estado: "vendido"
 // 🏔️ CATEGORÍAS: "Almería" (paisajes locales) | "Otros" (abstracto, bodegones, etc.)
-// ═══════════════════════════════════════════════════════════════
+// Los estados pueden ser: "disponible", "Reservado", "Vendido", "No disponible" o "Colección privada"
+//═══════════════════════════════════════════════════════════════
 
 const EMAIL_ARTISTA = "arte.diax@gmail.com";
 
@@ -17,7 +18,7 @@ const cuadros = [
     dimensiones: "61 × 50 cm",
     precio: 300,
     estado: "disponible",
-    imagen: "images/larambla.jpg",
+    imagen: "images/1larambla.jpg",
     descripcion: "Dibujo de la antigua Rambla (Actual Fco Garcia Lorca. Almería)."
   },
   {
@@ -75,7 +76,7 @@ const cuadros = [
     tecnica: "Óleo sobre lienzo",
     dimensiones: "46,5 × 55 cm",
     precio: 300,
-    estado: "vendido",
+    estado: "Colección privada",
     imagen: "images/alfarera.jpeg",
     descripcion: "Alfarera. Año 2025"
   }
@@ -111,7 +112,7 @@ const cuadros = [
     tecnica: "Óleo sobre lienzo",
     dimensiones: "65 × 46 cm",
     precio: 300,
-    estado: "disponible",
+    estado: "vendido",
     imagen: "images/arrecifesirenas.jpeg",
     descripcion: "El Arrecife de las Sirenas. Cabo de Gata. Almería"
   }
@@ -135,7 +136,7 @@ const cuadros = [
     tecnica: "Óleo sobre lienzo",
     dimensiones: "50 × 70 cm",
     precio: 300,
-    estado: "disponible",
+    estado: "Colección privada",
     imagen: "images/Bodasdesangre.jpeg",
     descripcion: "El cortijo del fraile. Nijar. Almería"
   }
