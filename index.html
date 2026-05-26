@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Arte Díax — Pintura Original desde Almería</title>
+<title>Arte Díax | Pintor en Almería | Cuadros Originales</title>
 <link href="https://cdn.jsdelivr.net/npm/@fontsource/inter@5/400/300/400/500/600/700/index.min.css" rel="stylesheet">
 <link href="https://cdn.jsdelivr.net/npm/@fontsource/playfair-display@5/700/index.min.css" rel="stylesheet">
 
@@ -12,19 +12,25 @@
 <meta name="keywords" content="pintor Almería, arte Díax, cuadros Almería, pintura original, arte mediterráneo, Cabo de Gata, pintor andaluz">
 <meta name="author" content="Arte Díax">
 <meta name="robots" content="index, follow">
+<meta name="theme-color" content="#1a3a6b">
+
+<link rel="canonical" href="https://artediax.com/">
+<link rel="preload" as="image" href="/images/fondo-hero.jpg">
+
+<link rel="icon" type="image/png" href="/favicon.png">
 
 <!-- Open Graph para redes sociales -->
 <meta property="og:title" content="Arte Díax — Pintura Original desde Almería">
 <meta property="og:description" content="Cuadros únicos pintados a mano por Díax, capturando la luz mediterránea.">
 <meta property="og:type" content="website">
-<meta property="og:url" content="https://artediax.netlify.app">
-<meta property="og:image" content="https://artediax.netlify.app/images/fondo-hero.jpg">
+<meta property="og:url" content="https://artediax.com/">
+<meta property="og:image" content="https://artediax.com/images/fondo-hero.jpg">
 
 <!-- Twitter Card -->
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:title" content="Arte Díax — Pintura Original desde Almería">
 <meta name="twitter:description" content="Cuadros únicos pintados a mano capturando la luz mediterránea.">
-<meta name="twitter:image" content="https://artediax.netlify.app/images/fondo-hero.jpg">
+<meta name="twitter:image" content="https://artediax.com/images/fondo-hero.jpg">
 
 
 
@@ -208,6 +214,24 @@ footer p{margin-top:.75rem;font-size:.85rem}
   .modal-spec-value,.modal-desc{font-size:0.7rem}
 }
 </style>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "name": "Díax",
+  "url": "https://artediax.com",
+  "jobTitle": "Pintor",
+  "description": "Pintor almeriense especializado en pintura mediterránea contemporánea.",
+  "address": {
+    "@type": "PostalAddress",
+    "addressLocality": "Almería",
+    "addressCountry": "ES"
+  },
+  "sameAs": [
+    "https://www.instagram.com/painting.diax/"
+  ]
+}
+</script>
 </head>
 <body>
 
@@ -444,7 +468,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
       card.innerHTML = `
         <div class="card-image">
-          <img src="${obra.imagen}" alt="${obra.titulo}" loading="lazy">
+          <img src="${obra.imagen}" alt="Cuadro original ${obra.titulo} pintado por Díax" loading="lazy">
           <span class="card-status ${estado.clase}">${estado.texto}</span>
         </div>
         <div class="card-info">
@@ -497,7 +521,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
     if (
       obra.estado === 'vendido' ||
-      obra.estado === 'no disponible' ||
+      obra.estado === 'No disponible' ||
       obra.estado === 'Colección privada'
     ) {
       ctaEl.textContent = estado.texto;
