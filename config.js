@@ -4,7 +4,8 @@
 // ✅ CÓMO AÑADIR UNA NUEVA OBRA: Copia un bloque {...}, pégalo antes del ], modifica los valores
 // ✅ CÓMO MARCAR COMO VENDIDO: estado: "disponible" → estado: "vendido"
 // 🏔️ CATEGORÍAS: "Almería" (paisajes locales) | "Otros" (abstracto, bodegones, etc.)
-// ═══════════════════════════════════════════════════════════════
+// Los estados pueden ser: "disponible", "Reservado", "Vendido", "No disponible" o "Colección privada"
+//═══════════════════════════════════════════════════════════════
 
 const EMAIL_ARTISTA = "arte.diax@gmail.com";
 
@@ -14,22 +15,23 @@ const cuadros = [
     titulo: "La Rambla",
     categoria: "Almería",
     tecnica: "Óleo sobre lienzo",
-    dimensiones: "61 × 50 cm",
-    precio: 300,
+    dimensiones: "50 × 60 cm",
+    precio: 270,
     estado: "disponible",
-    imagen: "images/larambla.jpg",
+    imagen: "images/1larambla.jpg",
     descripcion: "Dibujo de la antigua Rambla (Actual Fco Garcia Lorca. Almería)."
-  },
+  }
+,
   {
     id: 2,
-    titulo: "Mirador Alcazaba",
-    categoria: "Almería",
+    titulo: "Calle vieja",
+    categoria: "Varios",
     tecnica: "Óleo sobre lienzo",
-    dimensiones: "38 × 61 cm",
+    dimensiones: "61 × 50 cm",
     precio: 250,
     estado: "disponible",
-    imagen: "images/alcazabamirador.jpg",
-    descripcion: "Vista de la Alcazaba de Almería desde el mirador del cerro de San Cristobal. Año 2026"
+    imagen: "images/calleviejaitalia.jpg",
+    descripcion: "Calle de Italia. Año 2024"
   }
 ,
   {
@@ -39,7 +41,7 @@ const cuadros = [
     tecnica: "Óleo sobre lienzo",
     dimensiones: "33 × 41 cm",
     precio: 180,
-    estado: "disponible",
+    estado: "vendido",
     imagen: "images/mesongitano.jpg",
     descripcion: "Antigua vista del mesón gitano bajo La Alcazaba de Almería. Año 2025"
   }
@@ -75,7 +77,7 @@ const cuadros = [
     tecnica: "Óleo sobre lienzo",
     dimensiones: "46,5 × 55 cm",
     precio: 300,
-    estado: "vendido",
+    estado: "Colección privada",
     imagen: "images/alfarera.jpeg",
     descripcion: "Alfarera. Año 2025"
   }
@@ -86,7 +88,7 @@ const cuadros = [
     categoria: "Almería",
     tecnica: "Óleo sobre lienzo",
     dimensiones: "60 × 49,5 cm",
-    precio: 325,
+    precio: 225,
     estado: "disponible",
     imagen: "images/lavanderas.jpeg",
     descripcion: "Lavanderas años 50 en el barrio de la Chanca. Almería"
@@ -111,7 +113,7 @@ const cuadros = [
     tecnica: "Óleo sobre lienzo",
     dimensiones: "65 × 46 cm",
     precio: 300,
-    estado: "disponible",
+    estado: "vendido",
     imagen: "images/arrecifesirenas.jpeg",
     descripcion: "El Arrecife de las Sirenas. Cabo de Gata. Almería"
   }
@@ -135,9 +137,32 @@ const cuadros = [
     tecnica: "Óleo sobre lienzo",
     dimensiones: "50 × 70 cm",
     precio: 300,
-    estado: "disponible",
+    estado: "Colección privada",
     imagen: "images/Bodasdesangre.jpeg",
     descripcion: "El cortijo del fraile. Nijar. Almería"
   }
-
+,
+  {
+    id: 12,
+    titulo: "El patio.",
+    categoria: "Varios",
+    tecnica: "Óleo sobre lienzo",
+    dimensiones: "46 × 38 cm",
+    precio: 70,
+    estado: "disponible",
+    imagen: "images/elpatio2.jpeg",
+    descripcion: "Patio"
+  }
+  /*,
+  {
+    id: 2,
+    titulo: "Mirador Alcazaba",
+    categoria: "Almería",
+    tecnica: "Óleo sobre lienzo",
+    dimensiones: "38 × 61 cm",
+    precio: 250,
+    estado: "disponible",
+    imagen: "images/alcazabamirador.jpg",
+    descripcion: "Vista de la Alcazaba de Almería desde el mirador del cerro de San Cristobal. Año 2026"
+  }*/
 ];
