@@ -30,7 +30,7 @@ const cuadros = [
     dimensiones: "61 × 50 cm",
     precio: 250,
     estado: "disponible",
-    imagen: "images/calleviejaitalia.jpg",
+    imagen: "images/calleviejaitalia.jpeg",
     descripcion: "Calle de Italia. Año 2024"
   }
 ,
