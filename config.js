@@ -186,7 +186,7 @@ const cuadros = [
     dimensiones: "38 × 61 cm",
     precio: 130,
     estado: "disponible",
-    imagen: "images/venecia.jpeg",
+    imagen: "images/venecia.jpg",
     descripcion: "Gondolas en Venecia. año 2025"
   }
   /*,
