@@ -100,7 +100,7 @@ const cuadros = [
     categoria: "Almería",
     tecnica: "Óleo sobre lienzo",
     dimensiones: "46 × 55 cm",
-    precio: 300,
+    precio: 290,
     estado: "disponible",
     imagen: "images/puertapurchena.jpg",
     descripcion: "Puerta de Purchena. Almería"
@@ -112,7 +112,7 @@ const cuadros = [
     categoria: "Almería",
     tecnica: "Óleo sobre lienzo",
     dimensiones: "65 × 46 cm",
-    precio: 300,
+    precio: 290,
     estado: "vendido",
     imagen: "images/arrecifesirenas.jpeg",
     descripcion: "El Arrecife de las Sirenas. Cabo de Gata. Almería"
@@ -136,7 +136,7 @@ const cuadros = [
     categoria: "Almería",
     tecnica: "Óleo sobre lienzo",
     dimensiones: "50 × 70 cm",
-    precio: 300,
+    precio: 290,
     estado: "Colección privada",
     imagen: "images/Bodasdesangre.jpeg",
     descripcion: "El cortijo del fraile. Nijar. Almería"
@@ -152,6 +152,42 @@ const cuadros = [
     estado: "disponible",
     imagen: "images/elpatio2.jpeg",
     descripcion: "Patio"
+  }
+  ,
+  {
+    id: 13,
+    titulo: "El rio.",
+    categoria: "Varios",
+    tecnica: "Óleo sobre lienzo",
+    dimensiones: "38 × 46 cm",
+    precio: 90,
+    estado: "disponible",
+    imagen: "images/rio.jpeg",
+    descripcion: "Paisaje de Cazorla"
+  }
+  ,
+  {
+    id: 14,
+    titulo: "Patio cordobes.",
+    categoria: "Varios",
+    tecnica: "Óleo sobre lienzo",
+    dimensiones: "46 × 38 cm",
+    precio: 115,
+    estado: "disponible",
+    imagen: "images/elpatio.jpeg",
+    descripcion: "Patio cordobes"
+  }
+  ,
+  {
+    id: 15,
+    titulo: "Venecia.",
+    categoria: "Varios",
+    tecnica: "Óleo sobre lienzo",
+    dimensiones: "38 × 61 cm",
+    precio: 130,
+    estado: "disponible",
+    imagen: "images/venecia.jpeg",
+    descripcion: "Gondolas en Venecia. año 2025"
   }
   /*,
   {
