@@ -40,7 +40,7 @@ const cuadros = [
     tecnica: "Óleo sobre lienzo",
     dimensiones: "33 × 41 cm",
     precio: 180,
-    estado: "disponible",
+    estado: "vendido",
     imagen: "images/mesongitano.jpg",
     descripcion: "Antigua vista del mesón gitano bajo La Alcazaba de Almería. Año 2025"
   }
@@ -139,6 +139,18 @@ const cuadros = [
     estado: "Colección privada",
     imagen: "images/Bodasdesangre.jpeg",
     descripcion: "El cortijo del fraile. Nijar. Almería"
+  }
+,
+  {
+    id: 12,
+    titulo: "El patio.",
+    categoria: "Varios",
+    tecnica: "Óleo sobre lienzo",
+    dimensiones: "46 × 38 cm",
+    precio: 70,
+    estado: "disponible",
+    imagen: "images/elpatio2.jpeg",
+    descripcion: "Patio"
   }
 
 ];
