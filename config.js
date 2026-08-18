@@ -16,7 +16,7 @@ const cuadros = [
     categoria: "Almería",
     tecnica: "Óleo sobre lienzo",
     dimensiones: "50 × 60 cm",
-    precio: 270,
+    precio: 290,
     estado: "disponible",
     imagen: "images/1_larambla.jpg",
     descripcion: "Dibujo de la antigua Rambla (Actual Fco Garcia Lorca. Almería)."
@@ -27,7 +27,7 @@ const cuadros = [
     categoria: "Varios",
     tecnica: "Óleo sobre lienzo",
     dimensiones: "61 × 50 cm",
-    precio: 250,
+    precio: 260,
     estado: "disponible",
     imagen: "images/2_calleviejaitalia.jpeg",
     descripcion: "Calle de Italia. Año 2024"
@@ -38,7 +38,7 @@ const cuadros = [
     categoria: "Almería",
     tecnica: "Óleo sobre lienzo",
     dimensiones: "33 × 41 cm",
-    precio: 180,
+    precio: 190,
     estado: "vendido",
     imagen: "images/3_mesongitano.jpg",
     descripcion: "Antigua vista del mesón gitano bajo La Alcazaba de Almería. Año 2025"
@@ -49,7 +49,7 @@ const cuadros = [
     categoria: "Almería",
     tecnica: "Óleo sobre lienzo",
     dimensiones: "25 × 20 cm",
-    precio: 60,
+    precio: 80,
     estado: "disponible",
     imagen: "images/4_viejapuerta.jpg",
     descripcion: "Vieja puerta. Año 2024"
@@ -71,7 +71,7 @@ const cuadros = [
     categoria: "Varios",
     tecnica: "Óleo sobre lienzo",
     dimensiones: "46,5 × 55 cm",
-    precio: 300,
+    precio: 350,
     estado: "Colección privada",
     imagen: "images/6_alfarera.jpeg",
     descripcion: "Alfarera. Año 2025"
@@ -82,7 +82,7 @@ const cuadros = [
     categoria: "Almería",
     tecnica: "Óleo sobre lienzo",
     dimensiones: "60 × 49,5 cm",
-    precio: 225,
+    precio: 300,
     estado: "disponible",
     imagen: "images/7_lavanderas.jpeg",
     descripcion: "Lavanderas años 50 en el barrio de la Chanca. Almería. Año 2026"
@@ -104,7 +104,7 @@ const cuadros = [
     categoria: "Almería",
     tecnica: "Óleo sobre lienzo",
     dimensiones: "65 × 46 cm",
-    precio: 290,
+    precio: 300,
     estado: "vendido",
     imagen: "images/9_arrecifesirenas.jpeg",
     descripcion: "El Arrecife de las Sirenas. Cabo de Gata. Almería. Año 2025"
@@ -115,7 +115,7 @@ const cuadros = [
     categoria: "Almería",
     tecnica: "Óleo sobre lienzo",
     dimensiones: "50 × 61 cm",
-    precio: 280,
+    precio: 300,
     estado: "disponible",
     imagen: "images/10_atardecersalinas.jpeg",
     descripcion: "Atardecer en las Salinas de Cabo de Gata. Almería. Año 2024"
@@ -126,7 +126,7 @@ const cuadros = [
     categoria: "Almería",
     tecnica: "Óleo sobre lienzo",
     dimensiones: "50 × 70 cm",
-    precio: 290,
+    precio: 320,
     estado: "Colección privada",
     imagen: "images/11_elcortijodelfraile.jpeg",
     descripcion: "El cortijo del fraile. Nijar. Almería . Año 2024"
@@ -137,7 +137,7 @@ const cuadros = [
     categoria: "Varios",
     tecnica: "Óleo sobre lienzo",
     dimensiones: "46 × 38 cm",
-    precio: 70,
+    precio: 100,
     estado: "disponible",
     imagen: "images/12_elpatio.jpeg",
     descripcion: "Patio. Año 2025"
@@ -148,7 +148,7 @@ const cuadros = [
     categoria: "Varios",
     tecnica: "Óleo sobre lienzo",
     dimensiones: "38 × 46 cm",
-    precio: 90,
+    precio: 130,
     estado: "disponible",
     imagen: "images/13_rio.jpeg",
     descripcion: "Paisaje de Cazorla. Año 2026"
@@ -159,7 +159,7 @@ const cuadros = [
     categoria: "Varios",
     tecnica: "Óleo sobre lienzo",
     dimensiones: "46 × 38 cm",
-    precio: 115,
+    precio: 130,
     estado: "disponible",
     imagen: "images/14_patiocordobes.jpeg",
     descripcion: "Patio cordobes. Año 2025"
@@ -170,7 +170,7 @@ const cuadros = [
     categoria: "Varios",
     tecnica: "Óleo sobre lienzo",
     dimensiones: "38 × 61 cm",
-    precio: 130,
+    precio: 170,
     estado: "disponible",
     imagen: "images/15_venecia.jpg",
     descripcion: "Gondolas en Venecia. Año 2025"
@@ -181,7 +181,7 @@ const cuadros = [
     categoria: "Varios",
     tecnica: "Óleo sobre lienzo",
     dimensiones: "70 × 50 cm",
-    precio: 250,
+    precio: 270,
     estado: "disponible",
     imagen: "images/16_elvuelo.jpeg",
     descripcion: "Gaviotas volando. Año 2025"
@@ -214,7 +214,7 @@ const cuadros = [
     categoria: "Varios",
     tecnica: "Óleo sobre lienzo",
     dimensiones: "70 × 100 cm",
-    precio: 340,
+    precio: 450,
     estado: "disponible",
     imagen: "images/19_newyork.jpeg",
     descripcion: "Calle de New York. Año 2025"
@@ -225,7 +225,7 @@ const cuadros = [
     categoria: "Varios",
     tecnica: "Óleo sobre lienzo",
     dimensiones: "39,5 × 50 cm",
-    precio: 260,
+    precio: 280,
     estado: "disponible",
     imagen: "images/20_nocheenlaalhambra.jpeg",
     descripcion: "Atardecer en la Alhambra de Granada. Año 2026"
