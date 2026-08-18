@@ -39,7 +39,7 @@ const cuadros = [
     tecnica: "Óleo sobre lienzo",
     dimensiones: "33 × 41 cm",
     precio: 190,
-    estado: "vendido",
+    estado: "No disponible",
     imagen: "images/3_mesongitano.jpg",
     descripcion: "Antigua vista del mesón gitano bajo La Alcazaba de Almería. Año 2025"
   },
