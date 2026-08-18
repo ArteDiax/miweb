@@ -213,6 +213,7 @@ const cuadros = [
     imagen: "images/17_cadiz.jpeg",
     descripcion: "Paisaje de Cadiz. Año 2025"
   }
+  ,
   {
     id: 18,
     titulo: "El bazar",
@@ -224,6 +225,7 @@ const cuadros = [
     imagen: "images/18_elbazar.jpeg",
     descripcion: "Mujer paseando por un bazar. Año 2025"
   }
+  ,
   {
     id: 19,
     titulo: "New York",
@@ -235,6 +237,7 @@ const cuadros = [
     imagen: "images/19_newyork.jpeg",
     descripcion: "Calle de New York. Año 2025"
   }
+  ,
   {
     id: 20,
     titulo: "Noche en la Alhambra",
